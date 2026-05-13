@@ -60,7 +60,7 @@ The project combines exploratory data analysis, feature engineering, feature sel
 ### Data Scaling & Imbalance Handling
 For Logistic Regression, SVM, and MLP:
 * Applied `StandardScaler` for feature scaling.
-* Applied `SMOTE-ENN` (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) within machine learning pipelines to handle class imbalance.
+* Applied `SMOTEENN` (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) within machine learning pipelines to handle class imbalance.
 
 ### Hyperparameter Optimization to maximize "F1-score"
 * **RandomizedSearchCV**
