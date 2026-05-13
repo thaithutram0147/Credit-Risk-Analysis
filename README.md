@@ -1,5 +1,5 @@
 # Credit Risk Analysis
-![Credit Risk Dashboard](Credit Risk Dashboard.png)
+![Credit Risk Dashboard](credit_risk_dashboard.png)
 
 ## 📌 Project Overview
 
