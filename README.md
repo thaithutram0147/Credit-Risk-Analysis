@@ -2,16 +2,13 @@
 ![Credit Risk Dashboard](credit_risk_dashboard.png)
 
 ## 📌 Project Overview
-
 This project focuses on credit risk analysis and loan default prediction using Python and Power BI.
 An end-to-end machine learning workflow was developed to analyze borrower behavior, identify key risk factors, and build predictive models for loan default classification.
-
 The project combines exploratory data analysis, feature engineering, feature selection, machine learning optimization, and business intelligence visualization to support credit risk management and decision-making.
 
 ---
 
 # 🛠️ Tech Stack
-
 * **Python** (Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, imbalanced-learn, Scikit-Optimize)
   * Data preprocessing
   * Feature selection
@@ -27,7 +24,6 @@ The project combines exploratory data analysis, feature engineering, feature sel
 ---
 
 # 🔑 Project Workflow
-
 ## 1️⃣ Exploratory Data Analysis (EDA)
 * Checked missing values and data distributions.
 * Analyzed statistical metrics of numerical variables.
@@ -64,7 +60,7 @@ The project combines exploratory data analysis, feature engineering, feature sel
 ### Data Scaling & Imbalance Handling
 For Logistic Regression, SVM, and MLP:
 * Applied `StandardScaler` for feature scaling.
-* Applied SMOTE-ENN (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) within machine learning pipelines to handle class imbalance.
+* Applied `SMOTE-ENN` (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) within machine learning pipelines to handle class imbalance.
 
 ### Hyperparameter Optimization to maximize "F1-score"
 * **RandomizedSearchCV**
