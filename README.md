@@ -4,6 +4,7 @@
 ## 📌 Project Overview
 This project focuses on credit risk analysis and loan default prediction using Python and Power BI.
 An end-to-end machine learning workflow was developed to analyze borrower behavior, identify key risk factors, and build predictive models for loan default classification.
+
 The project combines exploratory data analysis, feature engineering, feature selection, machine learning optimization, and business intelligence visualization to support credit risk management and decision-making.
 
 ---
