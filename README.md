@@ -10,7 +10,7 @@ The project combines exploratory data analysis, feature engineering, feature sel
 ---
 
 # 🛠️ Tech Stack
-* **Python** (Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, imbalanced-learn, Scikit-Optimize)
+* **Python** (`pandas`, `numpy`, `sklearn`, `matplotlib`, `seaborn`, `imblearn`)
   * Data preprocessing
   * Feature selection
   * Machine learning modeling
@@ -59,9 +59,10 @@ The project combines exploratory data analysis, feature engineering, feature sel
 * XGBoost
 
 ### Data Scaling & Imbalance Handling
-For Logistic Regression, SVM, and MLP:
-* Applied `StandardScaler` for feature scaling.
-* Applied `SMOTEENN` (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) within machine learning pipelines to handle class imbalance.
+To ensure model robustness (Logistic Regression, SVM, and MLP), the following workflow was implemented:
+* Built end-to-end **machine learning pipelines** to encapsulate the entire workflow, ensuring consistent preprocessing across all data subsets.
+* Applied `StandardScaler` for feature scaling and `SMOTEENN` (Synthetic Minority Oversampling Technique combined with Edited Nearest Neighbors) for class imbalance handling, both integrated directly into the pipeline and applied strictly within each K-Fold iteration.
+This approach ensures that the oversampling and scaling parameters are learned only from the training folds, preventing any Data Leakage from the validation folds.
 
 ### Hyperparameter Optimization to maximize "F1-score"
 * **RandomizedSearchCV**
