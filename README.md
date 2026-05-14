@@ -39,7 +39,7 @@ The project combines exploratory data analysis, feature engineering, feature sel
   * Mean imputation for `loan_int_rate`
   * Median imputation for `person_emp_length`
 * Encoded categorical variables using `LabelEncoder`.
-* Split the dataset into training and testing sets using a **70:30 ratio**.
+* Split the dataset into training and testing sets using a **80:20 ratio**.
 * Performed Spearman correlation analysis on the training set.
 * Used boxplots to validate correlations between selected features and the target variable.
 
