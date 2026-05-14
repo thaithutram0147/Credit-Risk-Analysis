@@ -99,11 +99,11 @@ Power BI was used to build an interactive dashboard for credit risk analysis and
 Additional boxplot visualizations from Python were combined with dashboard analysis to validate relationships between selected features and loan default behavior.
 
 ## 🔍 Key Insights
-* Customers with a high `loan_percent_income` are more likely to default.
-* Customers with higher annual income (`person_income`) generally have lower default risk.
-* Borrowers with `loan_intent = medical` show the highest default tendency.
-* Customers with `home_ownership = rent` have a higher probability of default.
-* Borrowers with shorter employment length (`person_emp_length`) are more likely to default.
+* Customers with a higher loan-to-income ratio (`loan_percent_income`) are more likely to default.
+* Customers with higher annual income (`person_income`) tend to have lower default risk .
+* Loans taken for medical purposes (`loan_intent`='medical') exhibit the highest likelihood of default among all loan purposes.
+* Renters (`home_ownership`= 'rent') tend to show a higher probability of default compared to customers with other housing statuses.
+* Customers with shorter employment histories (`person_emp_length`) are associated with increased default risk.
 
 ---
 
