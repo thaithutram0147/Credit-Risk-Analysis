@@ -100,7 +100,8 @@ Additional boxplot visualizations from Python were combined with dashboard analy
 
 ## 🔍 Key Insights
 * Customers with a higher loan-to-income ratio (`loan_percent_income`) are more likely to default.
-* Customers with higher annual income (`person_income`) tend to have lower default risk .
+* Customers with higher annual income (`person_income`) tend to have lower default risk.
+* Customers with stronger credit grades (`loan_grade`) are generally associated with a lower likelihood of default.
 * Loans taken for medical purposes (`loan_intent`='medical') exhibit the highest likelihood of default among all loan purposes.
 * Renters (`home_ownership`= 'rent') tend to show a higher probability of default compared to customers with other housing statuses.
 * Customers with shorter employment histories (`person_emp_length`) are associated with increased default risk.
